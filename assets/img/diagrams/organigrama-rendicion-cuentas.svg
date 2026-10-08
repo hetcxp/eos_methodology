@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 460" width="100%" height="100%">
+  <defs>
+    <linearGradient id="roleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F766E"/>
+      <stop offset="100%" stop-color="#115E59"/>
+    </linearGradient>
+    <filter id="nodeShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#0F172A" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <rect width="820" height="460" rx="14" fill="#F8FAFC"/>
+  <rect x="15" y="15" width="790" height="430" rx="10" fill="none" stroke="#E2E8F0" stroke-width="2"/>
+
+  <!-- Top Title -->
+  <rect x="30" y="25" width="760" height="46" rx="8" fill="url(#roleGrad)"/>
+  <text x="410" y="46" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="800" fill="#FFFFFF" text-anchor="middle">ORGANIGRAMA DE RENDICIÓN DE CUENTAS (ACCOUNTABILITY CHART)</text>
+  <text x="410" y="61" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="500" fill="#99F6E4" text-anchor="middle">Estructura Funcional + Filtro GWC (Comprenderlo, Desearlo, Capacidad) • Regla: 1 Solo Cuello por Asiento</text>
+
+  <!-- VISIONARIO (Top-Center) -->
+  <g transform="translate(310, 85)" filter="url(#nodeShadow)">
+    <rect width="200" height="68" rx="8" fill="#FFFFFF" stroke="#D97706" stroke-width="2"/>
+    <rect x="0" y="0" width="200" height="20" rx="6" fill="#FEF3C7"/>
+    <text x="100" y="14" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="800" fill="#B45309" text-anchor="middle">VISIONARIO (Opcional)</text>
+    <text x="10" y="36" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#1E293B">• Grandes Ideas &amp; Cultura</text>
+    <text x="10" y="49" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#1E293B">• Clientes y Socios Estratégicos</text>
+    <text x="10" y="62" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#1E293B">• Descubridor y Creador</text>
+  </g>
+  <line x1="410" y1="153" x2="410" y2="175" stroke="#0F766E" stroke-width="2"/>
+
+  <!-- INTEGRADOR (Center) -->
+  <g transform="translate(295, 175)" filter="url(#nodeShadow)">
+    <rect width="230" height="85" rx="8" fill="#FFFFFF" stroke="#0F766E" stroke-width="2.5"/>
+    <rect x="0" y="0" width="230" height="24" rx="6" fill="#0F766E"/>
+    <text x="115" y="16" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="800" fill="#FFFFFF" text-anchor="middle">INTEGRADOR (Esencial)</text>
+    <text x="10" y="41" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#1E293B">• LMA (Liderar, Manejar, Rendir Cuentas)</text>
+    <text x="10" y="54" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#1E293B">• Ejecutar el Plan de Negocio (P&amp;L)</text>
+    <text x="10" y="67" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#1E293B">• Amarrar las Funciones Medulares</text>
+    <text x="10" y="80" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#0F766E">• Filtro de la Visión y Resolución de Trabas</text>
+  </g>
+
+  <!-- Branch lines -->
+  <line x1="410" y1="260" x2="410" y2="290" stroke="#0F766E" stroke-width="2"/>
+  <line x1="140" y1="290" x2="680" y2="290" stroke="#0F766E" stroke-width="2"/>
+  <line x1="140" y1="290" x2="140" y2="310" stroke="#0F766E" stroke-width="2"/>
+  <line x1="410" y1="290" x2="410" y2="310" stroke="#0F766E" stroke-width="2"/>
+  <line x1="680" y1="290" x2="680" y2="310" stroke="#0F766E" stroke-width="2"/>
+
+  <!-- Function 1: VENTAS & MARKETING -->
+  <g transform="translate(30, 310)" filter="url(#nodeShadow)">
+    <rect width="220" height="120" rx="8" fill="#FFFFFF" stroke="#0F766E" stroke-width="1.5"/>
+    <rect x="0" y="0" width="220" height="24" rx="6" fill="#F0FDFA"/>
+    <text x="110" y="16" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="800" fill="#0F766E" text-anchor="middle">VENTAS / MERCADEO</text>
+    <text x="10" y="42" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#334155">• LMA de ventas y marketing</text>
+    <text x="10" y="56" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#334155">• Generación de prospectos calificados</text>
+    <text x="10" y="70" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#334155">• Cierre de ventas y cumplimiento de cuotas</text>
+    <text x="10" y="84" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#334155">• Imagen de marca y posicionamiento</text>
+    <text x="10" y="105" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#0F766E">FILTRO GWC: C ✓ | D ✓ | C ✓</text>
+  </g>
+
+  <!-- Function 2: OPERACIONES -->
+  <g transform="translate(300, 310)" filter="url(#nodeShadow)">
+    <rect width="220" height="120" rx="8" fill="#FFFFFF" stroke="#0F766E" stroke-width="1.5"/>
+    <rect x="0" y="0" width="220" height="24" rx="6" fill="#F0FDFA"/>
+    <text x="110" y="16" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="800" fill="#0F766E" text-anchor="middle">OPERACIONES</text>
+    <text x="10" y="42" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#334155">• LMA de operaciones y despachos</text>
+    <text x="10" y="56" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#334155">• Entrega del producto/servicio a tiempo</text>
+    <text x="10" y="70" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#334155">• Calidad, seguridad y cero mermas</text>
+    <text x="10" y="84" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#334155">• Satisfacción y retención de clientes</text>
+    <text x="10" y="105" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#0F766E">FILTRO GWC: C ✓ | D ✓ | C ✓</text>
+  </g>
+
+  <!-- Function 3: FINANZAS & CONTABILIDAD -->
+  <g transform="translate(570, 310)" filter="url(#nodeShadow)">
+    <rect width="220" height="120" rx="8" fill="#FFFFFF" stroke="#0F766E" stroke-width="1.5"/>
+    <rect x="0" y="0" width="220" height="24" rx="6" fill="#F0FDFA"/>
+    <text x="110" y="16" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="800" fill="#0F766E" text-anchor="middle">FINANZAS / ADMIN</text>
+    <text x="10" y="42" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#334155">• LMA de finanzas, legal y RRHH</text>
+    <text x="10" y="56" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#334155">• Gestión de flujo de caja y rentabilidad</text>
+    <text x="10" y="70" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#334155">• Estados financieros y Scorecard a tiempo</text>
+    <text x="10" y="84" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#334155">• Infraestructura tecnológica y compras</text>
+    <text x="10" y="105" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#0F766E">FILTRO GWC: C ✓ | D ✓ | C ✓</text>
+  </g>
+</svg>

@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="mintGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F766E"/>
+      <stop offset="100%" stop-color="#115E59"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F8FAFC"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0F172A" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" rx="16" fill="#F0FDFA"/>
+  <rect x="20" y="20" width="760" height="460" rx="12" fill="none" stroke="#CCFBF1" stroke-width="2"/>
+
+  <!-- Center Circle: EOS -->
+  <circle cx="400" cy="250" r="85" fill="url(#mintGrad)" filter="url(#shadow)"/>
+  <circle cx="400" cy="250" r="75" fill="none" stroke="#99F6E4" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="400" y="240" font-family="'Plus Jakarta Sans', sans-serif" font-size="24" font-weight="800" fill="#FFFFFF" text-anchor="middle">EOS®</text>
+  <text x="400" y="265" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#99F6E4" text-anchor="middle">SISTEMA OPERATIVO</text>
+  <text x="400" y="282" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#99F6E4" text-anchor="middle">EMPRESARIAL</text>
+
+  <!-- Component 1: VISIÓN (Top) -->
+  <g transform="translate(310, 40)" filter="url(#shadow)">
+    <rect width="180" height="75" rx="10" fill="url(#cardGrad)" stroke="#0F766E" stroke-width="2"/>
+    <rect x="0" y="0" width="180" height="6" rx="3" fill="#0F766E"/>
+    <text x="90" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="middle">1. VISIÓN</text>
+    <text x="90" y="52" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="500" fill="#475569" text-anchor="middle">V/TO (8 Preguntas)</text>
+    <text x="90" y="66" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="500" fill="#0F766E" text-anchor="middle">Compartida por Todos</text>
+  </g>
+  <line x1="400" y1="120" x2="400" y2="165" stroke="#0F766E" stroke-width="2" stroke-dasharray="4,3"/>
+
+  <!-- Component 2: PERSONAS (Top-Right) -->
+  <g transform="translate(560, 110)" filter="url(#shadow)">
+    <rect width="180" height="75" rx="10" fill="url(#cardGrad)" stroke="#0F766E" stroke-width="2"/>
+    <rect x="0" y="0" width="180" height="6" rx="3" fill="#0F766E"/>
+    <text x="90" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="middle">2. PERSONAS</text>
+    <text x="90" y="52" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="500" fill="#475569" text-anchor="middle">Organigrama de Cuentas</text>
+    <text x="90" y="66" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="500" fill="#0F766E" text-anchor="middle">GWC &amp; Valores Medulares</text>
+  </g>
+  <line x1="560" y1="165" x2="475" y2="210" stroke="#0F766E" stroke-width="2" stroke-dasharray="4,3"/>
+
+  <!-- Component 3: DATOS (Bottom-Right) -->
+  <g transform="translate(560, 315)" filter="url(#shadow)">
+    <rect width="180" height="75" rx="10" fill="url(#cardGrad)" stroke="#0F766E" stroke-width="2"/>
+    <rect x="0" y="0" width="180" height="6" rx="3" fill="#0F766E"/>
+    <text x="90" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="middle">3. DATOS</text>
+    <text x="90" y="52" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="500" fill="#475569" text-anchor="middle">Cuadro de Indicadores</text>
+    <text x="90" y="66" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="500" fill="#0F766E" text-anchor="middle">5-15 Métricas Semanales</text>
+  </g>
+  <line x1="560" y1="335" x2="475" y2="290" stroke="#0F766E" stroke-width="2" stroke-dasharray="4,3"/>
+
+  <!-- Component 4: TRACCIÓN (Bottom) -->
+  <g transform="translate(310, 385)" filter="url(#shadow)">
+    <rect width="180" height="75" rx="10" fill="url(#cardGrad)" stroke="#0F766E" stroke-width="2"/>
+    <rect x="0" y="0" width="180" height="6" rx="3" fill="#0F766E"/>
+    <text x="90" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="middle">6. TRACCIÓN</text>
+    <text x="90" y="52" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="500" fill="#475569" text-anchor="middle">Rocas de 90 Días</text>
+    <text x="90" y="66" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="500" fill="#0F766E" text-anchor="middle">Reunión Nivel 10 (90 min)</text>
+  </g>
+  <line x1="400" y1="380" x2="400" y2="335" stroke="#0F766E" stroke-width="2" stroke-dasharray="4,3"/>
+
+  <!-- Component 5: PROCESOS (Bottom-Left) -->
+  <g transform="translate(60, 315)" filter="url(#shadow)">
+    <rect width="180" height="75" rx="10" fill="url(#cardGrad)" stroke="#0F766E" stroke-width="2"/>
+    <rect x="0" y="0" width="180" height="6" rx="3" fill="#0F766E"/>
+    <text x="90" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="middle">5. PROCESOS</text>
+    <text x="90" y="52" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="500" fill="#475569" text-anchor="middle">Documentar 20/80</text>
+    <text x="90" y="66" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="500" fill="#0F766E" text-anchor="middle">Seguidos por Todos (FBA)</text>
+  </g>
+  <line x1="240" y1="335" x2="325" y2="290" stroke="#0F766E" stroke-width="2" stroke-dasharray="4,3"/>
+
+  <!-- Component 6: ASUNTOS (Top-Left) -->
+  <g transform="translate(60, 110)" filter="url(#shadow)">
+    <rect width="180" height="75" rx="10" fill="url(#cardGrad)" stroke="#0F766E" stroke-width="2"/>
+    <rect x="0" y="0" width="180" height="6" rx="3" fill="#0F766E"/>
+    <text x="90" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="middle">4. ASUNTOS</text>
+    <text x="90" y="52" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="500" fill="#475569" text-anchor="middle">Lista de Asuntos</text>
+    <text x="90" y="66" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="500" fill="#0F766E" text-anchor="middle">Vía IDS (Causa Raíz)</text>
+  </g>
+  <line x1="240" y1="165" x2="325" y2="210" stroke="#0F766E" stroke-width="2" stroke-dasharray="4,3"/>
+</svg>

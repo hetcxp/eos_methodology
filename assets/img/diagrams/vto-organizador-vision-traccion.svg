@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 480" width="100%" height="100%">
+  <defs>
+    <linearGradient id="vtoHead" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F766E"/>
+      <stop offset="100%" stop-color="#115E59"/>
+    </linearGradient>
+    <filter id="cardSh" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#0F172A" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <rect width="820" height="480" rx="14" fill="#F8FAFC"/>
+  <rect x="15" y="15" width="790" height="450" rx="10" fill="none" stroke="#E2E8F0" stroke-width="2"/>
+
+  <!-- Top Title -->
+  <rect x="30" y="25" width="760" height="50" rx="8" fill="url(#vtoHead)"/>
+  <text x="410" y="48" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle">ORGANIZADOR VISIÓN/TRACCIÓN (V/TO) • 2 PÁGINAS, 8 PREGUNTAS</text>
+  <text x="410" y="65" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="500" fill="#99F6E4" text-anchor="middle">De un Plan Estratégico de 50 Páginas en el Cajón a la Claridad Absoluta de Rayo Láser</text>
+
+  <!-- Side 1: VISIÓN (Left Column) -->
+  <g transform="translate(35, 90)" filter="url(#cardSh)">
+    <rect width="365" height="355" rx="8" fill="#FFFFFF" stroke="#0F766E" stroke-width="1.5"/>
+    <rect x="0" y="0" width="365" height="32" rx="8" fill="#0F766E"/>
+    <text x="182" y="21" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">PÁGINA 1: VISIÓN (A DÓNDE VAMOS)</text>
+
+    <!-- Q1 -->
+    <rect x="15" y="42" width="335" height="42" rx="6" fill="#F0FDFA" stroke="#CCFBF1"/>
+    <text x="25" y="58" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#0F766E">1. VALORES MEDULARES:</text>
+    <text x="25" y="74" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#475569">3 a 7 principios culturales no negociables.</text>
+
+    <!-- Q2 -->
+    <rect x="15" y="92" width="335" height="52" rx="6" fill="#F0FDFA" stroke="#CCFBF1"/>
+    <text x="25" y="108" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#0F766E">2. ENFOQUE MEDULAR (Core Focus):</text>
+    <text x="25" y="124" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#0F172A">Propósito / Causa / Pasión + Nicho Operativo.</text>
+    <text x="25" y="137" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#0D9488">"Tu punto ideal (Sweet Spot) donde sobresales"</text>
+
+    <!-- Q3 -->
+    <rect x="15" y="152" width="335" height="42" rx="6" fill="#F0FDFA" stroke="#CCFBF1"/>
+    <text x="25" y="168" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#0F766E">3. META A 10 AÑOS (BHAG):</text>
+    <text x="25" y="184" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#475569">Gran meta audaz unificadora a 5-30 años.</text>
+
+    <!-- Q4 -->
+    <rect x="15" y="202" width="335" height="135" rx="6" fill="#F0FDFA" stroke="#CCFBF1"/>
+    <text x="25" y="218" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#0F766E">4. ESTRATEGIA DE MERCADEO:</text>
+    <text x="35" y="238" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#0F172A">• Público Objetivo (Demográfico / Geográfico / Psicográfico)</text>
+    <text x="35" y="258" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#0F172A">• 3 Cualidades Únicas (Diferenciadores verificables)</text>
+    <text x="35" y="278" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#0F172A">• Proceso Comprobado (Tu manera en una página)</text>
+    <text x="35" y="298" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#0F172A">• Garantía (Promesa que reduce el riesgo de compra)</text>
+    <text x="25" y="325" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-style="italic" fill="#0D9488">Atrae a los clientes correctos y repele a los incorrectos.</text>
+  </g>
+
+  <!-- Side 2: TRACCIÓN (Right Column) -->
+  <g transform="translate(420, 90)" filter="url(#cardSh)">
+    <rect width="365" height="355" rx="8" fill="#FFFFFF" stroke="#0F766E" stroke-width="1.5"/>
+    <rect x="0" y="0" width="365" height="32" rx="8" fill="#0F766E"/>
+    <text x="182" y="21" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">PÁGINA 2: TRACCIÓN (CÓMO LLEGAREMOS)</text>
+
+    <!-- Q5 -->
+    <rect x="15" y="42" width="335" height="60" rx="6" fill="#F8FAFC" stroke="#E2E8F0"/>
+    <text x="25" y="58" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#0F172A">5. PANORAMA A 3 AÑOS:</text>
+    <text x="25" y="74" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#475569">Ingresos futuros, Ganancia, Medibles clave y</text>
+    <text x="25" y="88" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#0F766E">5 a 15 viñetas descriptivas de cómo lucirá la empresa.</text>
+
+    <!-- Q6 -->
+    <rect x="15" y="110" width="335" height="60" rx="6" fill="#F8FAFC" stroke="#E2E8F0"/>
+    <text x="25" y="126" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#0F766E">6. PLAN A 1 AÑO:</text>
+    <text x="25" y="142" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#475569">Metas financieras anuales + 3 a 7 Metas Clave.</text>
+    <text x="25" y="156" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#0D9488">Menos es más: Priorizar pocas metas y cumplirlas al 100%.</text>
+
+    <!-- Q7 -->
+    <rect x="15" y="178" width="335" height="60" rx="6" fill="#F8FAFC" stroke="#E2E8F0"/>
+    <text x="25" y="194" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#0F172A">7. ROCAS (90 DÍAS):</text>
+    <text x="25" y="210" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#475569">3 a 7 prioridades cruciales para el trimestre.</text>
+    <text x="25" y="224" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#0F766E">Cada roca tiene UN SOLO dueño y criterio binario.</text>
+
+    <!-- Q8 -->
+    <rect x="15" y="246" width="335" height="92" rx="6" fill="#F8FAFC" stroke="#E2E8F0"/>
+    <text x="25" y="262" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#DC2626">8. LISTA DE ASUNTOS (V/TO):</text>
+    <text x="25" y="278" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#475569">Obstáculos estratégicos a más de 90 días:</text>
+    <text x="25" y="294" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#475569">• Dudas de expansión o nuevos mercados</text>
+    <text x="25" y="308" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#475569">• Cambios tecnológicos mayores o de liderazgo</text>
+    <text x="25" y="324" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-style="italic" fill="#64748B">Se resuelven en los días de planificación trimestral y anual.</text>
+  </g>
+</svg>

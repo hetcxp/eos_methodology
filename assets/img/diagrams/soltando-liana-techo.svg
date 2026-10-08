@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="100%" height="100%">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F766E"/>
+      <stop offset="100%" stop-color="#115E59"/>
+    </linearGradient>
+    <filter id="boxShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#0F172A" flood-opacity="0.07"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="420" rx="14" fill="#F8FAFC"/>
+  <rect x="15" y="15" width="770" height="390" rx="10" fill="none" stroke="#E2E8F0" stroke-width="2"/>
+
+  <!-- Title Banner -->
+  <rect x="30" y="28" width="740" height="56" rx="8" fill="url(#headerGrad)"/>
+  <text x="400" y="55" font-family="'Plus Jakarta Sans', sans-serif" font-size="18" font-weight="800" fill="#FFFFFF" text-anchor="middle">ATRAVESAR EL TECHO DE COMPLEJIDAD • SOLTANDO LA LIANA</text>
+  <text x="400" y="73" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="500" fill="#99F6E4" text-anchor="middle">Las 5 Habilidades de Liderazgo para Pasar de la Dictadura al Equipo Cohesivo</text>
+
+  <!-- Skill 1: SIMPLIFICAR -->
+  <g transform="translate(40, 110)" filter="url(#boxShadow)">
+    <rect width="130" height="260" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <rect x="0" y="0" width="130" height="8" rx="4" fill="#0F766E"/>
+    <text x="65" y="38" font-family="'Plus Jakarta Sans', sans-serif" font-size="24" text-anchor="middle">✂️</text>
+    <text x="65" y="68" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="800" fill="#0F172A" text-anchor="middle">SIMPLIFICAR</text>
+    <text x="65" y="90" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#0F766E" text-anchor="middle">KISS: Menos es más</text>
+    <foreignObject x="10" y="105" width="110" height="145">
+      <p xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 11px; color: #475569; line-height: 1.4; margin: 0; text-align: center;">
+        Reducir complejidad innecesaria en reglas, procesos y mensajes. La complejidad ahoga el crecimiento.
+      </p>
+    </foreignObject>
+  </g>
+
+  <!-- Skill 2: DELEGAR Y ELEVAR -->
+  <g transform="translate(188, 110)" filter="url(#boxShadow)">
+    <rect width="130" height="260" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <rect x="0" y="0" width="130" height="8" rx="4" fill="#0F766E"/>
+    <text x="65" y="38" font-family="'Plus Jakarta Sans', sans-serif" font-size="24" text-anchor="middle">🚀</text>
+    <text x="65" y="68" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="800" fill="#0F172A" text-anchor="middle">DELEGAR</text>
+    <text x="65" y="90" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#0F766E" text-anchor="middle">Y Elevar</text>
+    <foreignObject x="10" y="105" width="110" height="145">
+      <p xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 11px; color: #475569; line-height: 1.4; margin: 0; text-align: center;">
+        Soltar tareas superadas para operar en tu mayor y mejor uso. Confiar en líderes más capaces que tú en su área.
+      </p>
+    </foreignObject>
+  </g>
+
+  <!-- Skill 3: PREDECIR -->
+  <g transform="translate(335, 110)" filter="url(#boxShadow)">
+    <rect width="130" height="260" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <rect x="0" y="0" width="130" height="8" rx="4" fill="#0F766E"/>
+    <text x="65" y="38" font-family="'Plus Jakarta Sans', sans-serif" font-size="24" text-anchor="middle">🔭</text>
+    <text x="65" y="68" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="800" fill="#0F172A" text-anchor="middle">PREDECIR</text>
+    <text x="65" y="90" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#0F766E" text-anchor="middle">Largo y Corto Plazo</text>
+    <foreignObject x="10" y="105" width="110" height="145">
+      <p xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 11px; color: #475569; line-height: 1.4; margin: 0; text-align: center;">
+        Largo: Escalar el árbol (&gt;90 días). Corto: Resolver problemas semanales de raíz para que no vuelvan jamás.
+      </p>
+    </foreignObject>
+  </g>
+
+  <!-- Skill 4: SISTEMATIZAR -->
+  <g transform="translate(482, 110)" filter="url(#boxShadow)">
+    <rect width="130" height="260" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <rect x="0" y="0" width="130" height="8" rx="4" fill="#0F766E"/>
+    <text x="65" y="38" font-family="'Plus Jakarta Sans', sans-serif" font-size="24" text-anchor="middle">⚙️</text>
+    <text x="65" y="68" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="800" fill="#0F172A" text-anchor="middle">SISTEMATIZAR</text>
+    <text x="65" y="90" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#0F766E" text-anchor="middle">Tu "Manera" 20/80</text>
+    <foreignObject x="10" y="105" width="110" height="145">
+      <p xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 11px; color: #475569; line-height: 1.4; margin: 0; text-align: center;">
+        Identificar y documentar los procesos medulares. Entregar sistemas llave en mano que otros puedan ejecutar.
+      </p>
+    </foreignObject>
+  </g>
+
+  <!-- Skill 5: ESTRUCTURAR -->
+  <g transform="translate(630, 110)" filter="url(#boxShadow)">
+    <rect width="130" height="260" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <rect x="0" y="0" width="130" height="8" rx="4" fill="#0F766E"/>
+    <text x="65" y="38" font-family="'Plus Jakarta Sans', sans-serif" font-size="24" text-anchor="middle">🏛️</text>
+    <text x="65" y="68" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="800" fill="#0F172A" text-anchor="middle">ESTRUCTURAR</text>
+    <text x="65" y="90" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#0F766E" text-anchor="middle">Cuentas vs Egos</text>
+    <foreignObject x="10" y="105" width="110" height="145">
+      <p xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 11px; color: #475569; line-height: 1.4; margin: 0; text-align: center;">
+        Organigrama de Rendición de Cuentas: Diseñar los roles que la empresa necesita para escalar, no para acomodar personas.
+      </p>
+    </foreignObject>
+  </g>
+</svg>

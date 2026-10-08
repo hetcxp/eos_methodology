@@ -1,0 +1,20 @@
+{
+  "name": "eos_methodology",
+  "version": "1.0.0",
+  "description": "Sistema Operativo Empresarial (EOS®) • Metodología Tracción (Gino Wickman) - SCORM 1.2 & SPA",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "build:scorm": "python3 scripts/build_scorm.py"
+  },
+  "keywords": [
+    "eos",
+    "traction",
+    "gino-wickman",
+    "scorm",
+    "andragogy",
+    "instructional-design"
+  ],
+  "author": "hetcxp",
+  "license": "UNLICENSED"
+}

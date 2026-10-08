@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="100%" height="100%">
+  <defs>
+    <linearGradient id="idsHead" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F766E"/>
+      <stop offset="100%" stop-color="#115E59"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#0F172A" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="420" rx="14" fill="#F8FAFC"/>
+  <rect x="15" y="15" width="770" height="390" rx="10" fill="none" stroke="#E2E8F0" stroke-width="2"/>
+
+  <!-- Top Title -->
+  <rect x="30" y="25" width="740" height="50" rx="8" fill="url(#idsHead)"/>
+  <text x="400" y="48" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle">LA VÍA DE RESOLUCIÓN DE ASUNTOS (IDS™)</text>
+  <text x="400" y="65" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="500" fill="#99F6E4" text-anchor="middle">Identificar • Discutir • Solucionar • Elimina Problemas de Raíz para Siempre</text>
+
+  <!-- Step 1: IDENTIFICAR -->
+  <g transform="translate(45, 95)" filter="url(#cardShadow)">
+    <rect width="210" height="280" rx="10" fill="#FFFFFF" stroke="#0F766E" stroke-width="2"/>
+    <rect x="0" y="0" width="210" height="36" rx="8" fill="#0F766E"/>
+    <text x="105" y="23" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="800" fill="#FFFFFF" text-anchor="middle">1. IDENTIFICAR (I)</text>
+    
+    <rect x="15" y="48" width="180" height="24" rx="4" fill="#FEF3C7"/>
+    <text x="105" y="64" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#B45309" text-anchor="middle">80% DEL TIEMPO</text>
+
+    <foreignObject x="15" y="80" width="180" height="185">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 11px; color: #334155; line-height: 1.5;">
+        <p style="margin: 0 0 8px;"><strong>Desenterrar la Causa Raíz:</strong> Lo que la gente plantea al inicio casi siempre es un síntoma superficial.</p>
+        <p style="margin: 0 0 8px;"><strong>Cero Miedo a la Verdad:</strong> Descubrir el problema real sin rodeos ni diplomacia corporativa.</p>
+        <p style="margin: 0; color: #0F766E; font-weight: 600;">"Si no identificas el problema real, resolverás el síntoma una y otra vez."</p>
+      </div>
+    </foreignObject>
+  </g>
+
+  <!-- Arrow 1 -->
+  <path d="M 268 235 L 295 235 M 287 227 L 295 235 L 287 243" fill="none" stroke="#0F766E" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Step 2: DISCUTIR -->
+  <g transform="translate(305, 95)" filter="url(#cardShadow)">
+    <rect width="210" height="280" rx="10" fill="#FFFFFF" stroke="#0F766E" stroke-width="2"/>
+    <rect x="0" y="0" width="210" height="36" rx="8" fill="#0F766E"/>
+    <text x="105" y="23" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="800" fill="#FFFFFF" text-anchor="middle">2. DISCUTIR (D)</text>
+    
+    <rect x="15" y="48" width="180" height="24" rx="4" fill="#E0F2FE"/>
+    <text x="105" y="64" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#0369A1" text-anchor="middle">DEBATE ABIERTO &amp; BREVE</text>
+
+    <foreignObject x="15" y="80" width="180" height="185">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 11px; color: #334155; line-height: 1.5;">
+        <p style="margin: 0 0 8px;"><strong>Cada quien opina una vez:</strong> Exponer perspectivas sin repetirse ni entrar en círculos viciosos.</p>
+        <p style="margin: 0 0 8px;"><strong>Cero Politiquería:</strong> Foco en el bien mayor de la empresa, no en defender territorios departamentales.</p>
+        <p style="margin: 0; color: #0F766E; font-weight: 600;">"Discutir no es convencer al otro; es poner todos los hechos sobre la mesa."</p>
+      </div>
+    </foreignObject>
+  </g>
+
+  <!-- Arrow 2 -->
+  <path d="M 528 235 L 555 235 M 547 227 L 555 235 L 547 243" fill="none" stroke="#0F766E" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Step 3: SOLUCIONAR -->
+  <g transform="translate(565, 95)" filter="url(#cardShadow)">
+    <rect width="210" height="280" rx="10" fill="#FFFFFF" stroke="#0F766E" stroke-width="2"/>
+    <rect x="0" y="0" width="210" height="36" rx="8" fill="#0F766E"/>
+    <text x="105" y="23" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="800" fill="#FFFFFF" text-anchor="middle">3. SOLUCIONAR (S)</text>
+    
+    <rect x="15" y="48" width="180" height="24" rx="4" fill="#DCFCE7"/>
+    <text x="105" y="64" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#15803D" text-anchor="middle">PLAN DE ACCIÓN CONCRETO</text>
+
+    <foreignObject x="15" y="80" width="180" height="185">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 11px; color: #334155; line-height: 1.5;">
+        <p style="margin: 0 0 8px;"><strong>Decisión Ejecutiva:</strong> El consenso es ideal, pero si no se logra, el Integrador decide.</p>
+        <p style="margin: 0 0 8px;"><strong>To-Do Asignado:</strong> Se genera una tarea concreta en la lista de pendientes semanal.</p>
+        <p style="margin: 0; color: #0F766E; font-weight: 700;">• UN SOLO responsable<br/>• Fecha límite clara<br/>• Asunto eliminado de la lista</p>
+      </div>
+    </foreignObject>
+  </g>
+</svg>
